@@ -89,13 +89,13 @@ ul {
 }
 .wrap .footer {
     position: relative;
-    min-height: 63px;
-    padding: 10px;
+     padding: 10px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
     margin: 60px -15px 0 -15px;
-    text-align: right
+    text-align: right;
+    display: flex;
 }
 .wrap .footer:after {
     content: '';
@@ -126,6 +126,13 @@ ul {
     margin: 12px 0 0 12px;
     text-decoration: none
 }
+.wrap .footer .tomail {
+    font-size: 14px;
+    margin: 0px;
+    text-decoration: underline;
+    color:#797b80
+}
+
 .wrap .footer span {
     margin-top: 8px
 }
@@ -235,11 +242,11 @@ ul {
     background: url(../images/overlay-bg-1.png) repeat
 }
 .style-2 .footer a {
-    color: #364047
+    color: #6c7479
 }
 @media (min-width: 768px) {
     .wrap {
-        margin-top: 100px
+        margin-top: 120px
     }
     .wrap .content,
     .wrap .tweets {
